@@ -104,11 +104,7 @@
               </h2>
               <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                 <div class="accordion-body">
-                <iframe class="card-img-top" width="560" height="315" 
-                src="https://drive.google.com/file/d/1wtfnQe9wFotQpFPHt_4NfrBSqvFyvDDV/view?usp=share_link" 
-                title="YouTube video player" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
-                picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="https://onedrive.live.com/embed?cid=7A4647005F3BE20A&resid=7A4647005F3BE20A%21176&authkey=AE4KxCKzlYni7Ik&em=2" width="700" height="1000" frameborder="0" scrolling="true"></iframe>
                 </div>
               </div>
             </div>

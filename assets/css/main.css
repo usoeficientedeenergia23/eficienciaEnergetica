@@ -1,3 +1,20 @@
+/* .color1 { #ae0c3e };
+.color2 { #afcca8 };
+.color3 { #f5eec3 };
+.color4 { #c7b299 };
+.color5 { #33211c }; */
+
+footer {
+    background: #a31c3a;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #titulo {
     position: relative;    /* para poder posicionar el texto de forma absoluta */
     display: inline-block; /* para que solo ocupe el ancho de la imagen */
@@ -39,8 +56,28 @@ nav ul li {
     font-size: 23px;
     font-family: "Source Sans Pro";
     text-align: justify;
+    line-height: 2;
 }
 
 .centrar img{
     border-radius: 25px;
+}
+
+
+.redes-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-container ul:hover a{
+    filter:blur(2px);
+}
+
+.redes-container ul li a:hover{
+    transform: translate(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0,0,0,0.4);
+    filter: none;
+    background: rgba(70, 24, 32, 0.774);
+    color:rgba(70, 24, 32, 0.774);
 }

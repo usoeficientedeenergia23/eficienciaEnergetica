@@ -1,7 +1,7 @@
 <?php require_once INCLUDES.'inc_header.php'; ?>
 
 <div id ="titulo" class = "col-xs-12 col-md-12">
-  <img  id = "imagen" class="col-xs-12 col-md-12" width="560" height="400" src="<?php echo IMAGES.'uso_eficiente.gif' ?>" alt="">
+  <img  id = "imagen" class="col-xs-12 col-md-12" width="560" height="400" src="<?php echo IMAGES.'uso_eficiente_agua.gif' ?>" alt="">
 </div>
 
 

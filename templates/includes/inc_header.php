@@ -22,7 +22,7 @@
   <div class = "encabezado">
     <img  class = "col-xs-12 col-md-12" height="90" src="<?php echo IMAGES.'logo1.jpg' ?>" alt="">          
     
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light" >
       <div class="container-fluid">
         <a class="navbar-brand" href="paginaPrincipal">Eficiencia Energética</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

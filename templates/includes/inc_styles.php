@@ -65,7 +65,5 @@
 <!-- Estilos personalizados deben ir en main.css o abajo de esta línea -->
 <link rel="stylesheet" href="<?php echo CSS.'main.css?v='.get_version(); ?>">
 <link rel="stylesheet" href="<?php echo CSS.'menuP.css?v='.get_version(); ?>">
-<link rel="stylesheet" href="<?php echo CSS.'formulario.css?v='.get_version(); ?>">
-<link rel="stylesheet" href="<?php echo CSS.'firma.css?v='.get_version(); ?>">
 
 

@@ -22,12 +22,7 @@
 
 <!-- Scripts personalizados Bee Framework -->
 <script src="<?php echo JS.'main.js?v='.get_version(); ?>"></script>
-<script src="<?php echo JS.'formulario.js?v='.get_version(); ?>"></script>
-<script src="<?php echo JS.'buscar.js?v='.get_version(); ?>"></script>
-<script src="<?php echo JS.'crearReporteForm.js?v='.get_version(); ?>"></script>
-<script src="<?php echo JS.'firma.js?v='.get_version(); ?>"></script>
-<script src="<?php echo JS.'mostrarInsumoForm.js?v='.get_version(); ?>"></script>
-<script src="<?php echo JS.'firmaEntrega.js?v='.get_version(); ?>"></script>
+
 
 
 
