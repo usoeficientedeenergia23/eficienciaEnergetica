@@ -17,7 +17,7 @@
     
     <nav class="navbar navbar-expand-lg navbar-light" >
       <div class="container-fluid">
-        <a class="navbar-brand" href="paginaPrincipal">Eficiencia Energética</a>
+        <a class="navbar-brand" href="templates/view/paginaPrincipal/indexView.php">Eficiencia Energética</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -55,7 +55,7 @@
         <div class="col-xs-12 col-md-4 card-title text-center " style =  " bottom: 0;" >
           <a href = "https://forms.gle/pGnoHaFvW1ZUfZLX8" type="button" class="btn btn-success btn-lg" target="_blank" >Inscripciones</a>
         </div>
-        <img  id = "imagen" class="col-xs-12 col-md-12" width="560" height="500" src="<?php echo IMAGES.'paginaP.gif' ?>" alt="">
+        <img  id = "imagen" class="col-xs-12 col-md-12" width="560" height="500" src="assets/images/paginaP.gif" alt="">
       </div>
       
       
@@ -80,7 +80,7 @@
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <a href="https://drive.google.com/file/d/1wd0vC9uS7aMkUWXCXo6142QvdW07EU4k/view?usp=share_link" target = "_blank">
-                        <img src="<?php echo IMAGES.'infografiaEficienciaE.png' ?>" class="d-block w-100" alt="...">
+                        <img src="assets/images/infografiaEficienciaE.png" class="d-block w-100" alt="...">
                       </a>  
                       <div class="carousel-caption d-none d-md-block">
                         <h5>Quieres saber más...</h5>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="carousel-item">
                       <a href="https://drive.google.com/file/d/157HNhdpUzPCv-ct4u79WBnrbFeDLMTgX/view?usp=sharing" target = "_blank">
-                        <img src="<?php echo IMAGES.'infografiaEficiencia.png' ?>" class="d-block w-100" alt="...">
+                        <img src="assets/images/infografiaEficiencia.png" class="d-block w-100" alt="...">
                       </a>
                       <div class="carousel-caption d-none d-md-block">
                         <h5>Quieres saber más...</h5>
@@ -96,7 +96,7 @@
                     </div>
                     <div class="carousel-item">
                       <a href="https://drive.google.com/file/d/1yrzV26gobIloSwSkPQfeftDzyQsybpj9/view?usp=share_link" target = "_blank">
-                        <img src="<?php echo IMAGES.'infografia3.png' ?>" class="d-block w-100" alt="...">
+                        <img src="assets/images/infografia3.png" class="d-block w-100" alt="...">
                       </a>
                       <div class="carousel-caption d-none d-md-block">
                         <h5>Quieres saber más...</h5>
@@ -104,7 +104,7 @@
                     </div>
                     <div class="carousel-item">
                       <a href="https://drive.google.com/file/d/1kqgHCnDqidfN619CbBByf2ip01pxgBzg/view?usp=share_link" target = "_blank">
-                        <img src="<?php echo IMAGES.'infografia4.png' ?>" class="d-block w-100" alt="...">
+                        <img src="assets/images/infografia4.png" class="d-block w-100" alt="...">
                       </a>
                       <div class="carousel-caption d-none d-md-block">
                         <h5>Quieres saber más...</h5>
@@ -127,7 +127,7 @@
                   <div class="row">
                     <div class="col-xs-12 col-sm-4">
                       <div class="zoom card">
-                        <img  class="card-img-top" src="<?php echo IMAGES.'electromovilidad.jpg' ?>" alt="...">
+                        <img  class="card-img-top" src="assets/images/electromovilidad.jpg" alt="...">
                         <div class="card-body">
                           <p class="card-text">12 de mayo 9:00 hrs - 12:00 hrs</p>
                           <a href="Electo" class="btn  btn-success">Electromovilidad</a>
@@ -137,7 +137,7 @@
       
                     <div class="col-xs-12 col-sm-4">
                       <div class="zoom card">
-                        <img  class="card-img-top" src="<?php echo IMAGES.'agua.jpg' ?>" alt="...">
+                        <img  class="card-img-top" src="assets/images/agua.jpg" alt="...">
                         <div class="card-body">
                           <p class="card-text">19 de mayo 10:00 hrs - 13:00 hrs </p>
                           <a href="Agua" class="btn  btn-success">Agua</a>
@@ -148,7 +148,7 @@
       
                     <div class="col-xs-12 col-sm-4">
                       <div class="zoom card">
-                        <img  class="card-img-top" src="<?php echo IMAGES.'residuos.png' ?>" alt="...">
+                        <img  class="card-img-top" src="assets/images/residuos.png" alt="...">
                         <div class="card-body">
                           <p class="card-text">26 de mayo 10:00 hrs - 13:00 hrs</p>
                           <a href="Residuo" class="btn  btn-success">Residuos Urbanos</a>
@@ -170,6 +170,33 @@
                 <br><br><br><br><br>
                 
               </div>  
+
+
+              <footer class="pt-2 text-center text-small">
+                <nav class="redes-container navbar navbar-expand-lg navbar-light " style="background-color: #a31c3a;">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" >Redes Sociales</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="https://www.facebook.com/profile.php?id=100090831654332" target = "_blank"><i class="bi bi-facebook" target = "_blanck" ></i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="https://www.instagram.com/usoeficientedelaenergia_23/" target = "_blank"><i class="bi bi-instagram"></i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="https://twitter.com/UEEAERU23" target = "_blank"><i class="bi bi-twitter"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
     <!-- Latest compiled and minified bootstrap-select CSS -->
