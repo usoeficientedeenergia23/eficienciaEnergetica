@@ -1,5 +1,6 @@
 <?php incluide("inc_styles.php"); ?>
 <?php echo '<!DOCTYPE html>
+
 <html>
 <head>
   <!-- Agregar basepath para definir a partir de donde se deben generar los enlaces y la carga de archivos -->
