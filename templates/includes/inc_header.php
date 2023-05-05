@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="<?php echo SITE_LANG; ?>">
+<?php incluide("inc_styles.php"); ?>
+<?php echo '<!DOCTYPE html>
+<html>
 <head>
   <!-- Agregar basepath para definir a partir de donde se deben generar los enlaces y la carga de archivos -->
-  <base href="<?php echo BASEPATH; ?>">
 
   <meta charset="UTF-8">
   
-  <title><?php echo isset($d->title) ? $d->title.' - '.get_sitename() : 'Bienvenido - '.get_sitename(); ?></title>
+  <title></title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,12 +15,11 @@
   <?php echo get_favicon(); ?>
   
   <!-- inc_styles.php -->
-  <?php require_once INCLUDES.'inc_styles.php'; ?>
 </head>
 
-<body class="<?php echo isset($d->bg) && $d->bg === 'dark' ? 'bg-dark' : 'bg-light' ?>" style="<?php echo 'padding: '.(isset($d->padding) ? $d->padding : '0px 0px'); ?>">
+<body class="" style="padding = "0px 0px"); ?>">
   <div class = "encabezado">
-    <img  class = "col-xs-12 col-md-12" height="90" src="<?php echo IMAGES.'logo1.jpg' ?>" alt="">          
+    <img  class = "col-xs-12 col-md-12" height="90" src="assets/images/logo1.jpg" alt="">          
     
     <nav class="navbar navbar-expand-lg navbar-light" >
       <div class="container-fluid">
@@ -55,5 +54,7 @@
     </nav>
 
 
-  </div>
+  </div> '
+
+ ?> 
 <!-- ends inc_header.php -->
