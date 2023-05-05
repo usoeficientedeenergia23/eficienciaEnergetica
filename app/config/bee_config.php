@@ -7,7 +7,7 @@
  * sean modificadas en el proceso por accidente así como el basepath y otras constantes que requieran
  * configuración especial en producción
  */
-define('IS_LOCAL'     , in_array($_SERVER['REMOTE_ADDR'], ['127.0.0.1', '::1']));
+define('IS_LOCAL'     , in_array($_SERVER['REMOTE_ADDR'], ['192.30.252.154', '::32']));
 define('BASEPATH'     , IS_LOCAL ? '/eficienciaEnergetica/' : 'https://usoeficientedeenergia23.github.io/eficienciaEnergetica/'); // Debe ser cambiada a la ruta de tu proyecto en producción y desarrollo
 define('IS_DEMO'      , false);
 
