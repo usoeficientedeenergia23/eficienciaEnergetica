@@ -81,3 +81,11 @@ nav ul li {
     background: rgba(70, 24, 32, 0.774);
     color:rgba(70, 24, 32, 0.774);
 }
+
+hr{
+    margin: auto;
+    margin-top: 10px;
+    width: 5%;
+    border: none;
+    border-top: 3px solid #a63e49;
+}
