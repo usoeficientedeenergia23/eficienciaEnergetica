@@ -59,6 +59,13 @@ nav ul li {
     line-height: 2;
 }
 
+.textoIndex p{
+    font-size: 20px;
+    font-family: "Source Sans Pro";
+    text-align: justify;
+    line-height: 1.5;
+}
+
 .centrar img{
     border-radius: 25px;
 }
