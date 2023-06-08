@@ -85,8 +85,8 @@
     <h1 class="col-xs-12 col-md-12 text-center"> ¿Sabes qué es eficiencia energética?</h1>
     <hr>
 
-    <div class="textoIndex col-xs-12 col-sm-12">
-      <p>
+    <div class="col-xs-12 col-sm-8">
+      <p class="text-center">
         Se le denomina eficiencia energética a todas las acciones que conlleven a una reducción económicamente viable
         de la cantidad de energía necesaria para satisfacer las necesidades energéticas de los servicios y bienes que
         requiere la sociedad, asegurando un nivel de calidad igual o superior y una disminución de los impactos 
@@ -102,7 +102,7 @@
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
-        <div class="card">
+        <div class="zoom card">
           <img  class="card-img-top" src="assets/images/electromovilidad.jpg" alt="...">
           <div class="card-body">
             <p class="card-text">Electromovilidad <br> 12 de mayo 9:00 hrs - 12:00 hrs
@@ -112,7 +112,7 @@
       </div>
 
       <div class="col">
-        <div class="card">
+        <div class="zoom card">
           <img  class="card-img-top" src="templates/views/Agua/images/agua.jpg" alt="...">
           <div class="card-body">
             <p class="card-text">Agua <br> 19 de mayo 10:00 hrs - 13:00 hrs 
@@ -133,56 +133,49 @@
     </div>
 
     <br><br>
-      <h4 class="text-center">Consulta el programa y expositores que estaran en cada seminario</h4>
+      <h4 class="text-center"> Programa y Expositores </h4>
     <br><br>
 
-    <div class="card text-center">
-      <div class="card-header">
-        Programa en Agua 
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card border-primary ">
+          <div class="card-body">
+            <h5>Programa en Agua</h5>
+            <p class="card-text">Consulta el programa y Expositores de Eficiencia en sistemas de aguas</p>
+            <a href="templates/views/ProgramaAgua/indexView.html" class="btn btn-outline-secondary">Agua</a>
+          </div>
+        </div>
       </div>
-      <div class="card-body">
-        <p class="card-text">Consulta el programa y los expositores en Agua</p>
-        <a href="templates/views/ProgramaResiduos/indexView.html" class="btn btn-primary">Programa en Agua</a>
+      <div class="col-sm-4">
+        <div class="card border-primary">
+          <div class="card-body">
+            <h5>Programa en Electromovilidad</h5>
+            <p class="card-text">Consulta el programa y Expositores de Escalamiento en electromovilidad</p>
+            <a href="templates/views/ProgramaElectromovilidad/indexView.html" class="btn btn-outline-secondary">Electromovilidad</a>
+          </div>
+        </div>
       </div>
-    </div>
-    <br>
-
-    <div class="card text-center">
-      <div class="card-header">
-        Programa en Electromovilidad
-      </div>
-      <div class="card-body">
-        <h5>Consulta el programa y los expositores en Electromovilidad</h5>
-        <p class="card-text"></p>
-        <a href="templates/views/ProgramaElectromovilidad/indexView.html" class="btn btn-primary">Programa en Electromovilidad</a>
-      </div>
-    </div>
-    <br>
-
-    <div class="card text-center">
-      <div class="card-header">
-        Programa en Residuo Urbanos
-      </div>
-      <div class="card-body">
-        <h5>Consulta el programa y los expositores en Residuos Urbanos</h5>
-        <p class="card-text"></p>
-        <a href="templates/views/ProgramaResiduos/indexView.html" class="btn btn-primary">Programa en Residuos Urbanos</a>
+      <div class="col-sm-4">
+        <div class="card border-primary">
+          <div class="card-body">
+            <h5>Programa en Residuos Urbanos</h5>
+            <p class="card-text">Consulta el programa y Expositores de Innovación en Residuos Urbanos</p>
+            <a href="templates/views/ProgramaResiduos/indexView.html" class="btn btn-outline-secondary">Residuos urbanos</a>
+          </div>
+        </div>
       </div>
     </div>
-
-
-
-    
+ 
 
     <br><br>
       <h4 class="text-center">Consulta la transmisión de nuestros seminarios</h4>
     <br><br>
 
     <p class = "text-center">
-      <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Agua</a>
-      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Electromovilidad</button>
-      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Residuos Urbanos</button>
-      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2 multiCollapseExample3">Todos los programas</button>
+      <a class="btn btn-outline-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Agua</a>
+      <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Electromovilidad</button>
+      <button class="btn btn-outline-success" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Residuos Urbanos</button>
+      <button class="btn btn-outline-info" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2 multiCollapseExample3">Todos los programas</button>
     </p>
     <div class="row">
       <div class="col">
@@ -208,46 +201,6 @@
       </div>
       
     </div>
-
-      <!-- <div class="accordion" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-              Vídeos de los seminarios 
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
-            <div class="accordion-body">
-              <br><br>
-      
-              <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-text">Agua</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-text">Electromovilidad</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-text">Residuos Urbanos</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>     -->
-
 
     <br><br><br>
     <h1 class="col-xs-12 col-md-12 text-center"> Conoce más sobre eficiencia Energética</h1>
